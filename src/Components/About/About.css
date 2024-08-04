@@ -1,0 +1,62 @@
+.About h1, .About p, .About h3 {
+    font-family: 'Noto Serif', cursive;
+    /* font-weight: bold; */
+}
+
+.lines, .lines2 {
+    border-bottom: 1px solid red;
+    margin: 3% auto;
+    width: 9%;
+}
+.text, .image {
+
+    margin: 0 5%;
+    width: 50%;
+
+}
+.text, .lines2 {
+font-weight: bolder;
+ text-align: left;
+ margin-left: 0;
+
+}
+
+.text p {
+    font-family: 'Comfortaa', cursive;
+    line-height: 170%;
+}
+
+.About-section {
+    display: flex;
+    margin-top: 10%;
+}
+.image {
+    height: 80vh;
+}
+
+.image img {
+    position: absolute;
+    position: relative;
+    top: -100%;
+    height: 95%;
+    border-radius: 2%;
+    z-index: 1;
+    margin-top: 3%;
+}
+
+.bg-red {
+    position: absolute;
+    position: relative;
+    left: 18%;
+    width: 70%;
+    background-color: rgb(255, 83, 83);
+    height: 100%;
+    border-radius: 2%;
+    z-index: -100;
+
+}
+
+.button {
+    margin-top: 10%;
+}
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Serif&family=Poor+Story&family=Shalimar&display=swap');
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.hero-left  {
+    text-align: left;
+    margin-right: 10%;
+    
+}
+
+.hero-left h1 {
+    font-family: 'Noto Serif', cursive;
+    line-height: 150%;
+}
+.hero-left h6 {
+    font-weight: lighter;
+}
+.hero-left Button {
+    margin-top: 5%;
+    padding: 2% 4%;
+
+}
+.Button2 {
+    margin-left: 2%;
+}
+
